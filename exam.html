@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Examination Portal</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="sty.css">
+    <!-- Internal CSS -->
+<style>
+     body {
+            font-family: Arial;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            background-color:lightblue;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+     p{
+            background: #555;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+    
+
+    </style>
+</head>
+<img src = "C:\Users\HP\OneDrive\Documents\examination portal.jpg" height="200" width="700">
+<img src="C:\Users\HP\OneDrive\Documents\online.jpg" height="200" width="800">
+<header>
+     <h1>Online Examination Portal</h1>
+</header>
+<center>
+<h4 style="color:darkblue;">Your online examination portal's link is given here:<br></h4>
+<a href="www.google.com">Examination Portal</a><br>
+<h4 style="color:darkblue;">If you have any doubt in this page refer this video or audio given below and after login your portal page</h4>
+<h2 style="color:purple;"><em>Reference Video and Audio</em></h2>
+<video width="200" height="200" controls>
+<source src="C:\Users\HP\OneDrive\Documents/online.mp4" type="video/mp4">
+</video>
+<audio controls>
+<source src="C:\Users\HP\OneDrive\Documents/audio1.mp3" type="audio/mp3">
+</audio>
+</center>
+<hr>
+<body>
+<form action="crud.php" metho="POST">
+<hr>
+<p>
+<em>General Exam Instructions</em><br><br>
+1. Ensure a stable internet connection and login atleast 10 minutes before the exam starts.<br>
+2. Do not refresh the page or switch tabs; follow all on-screen instructions carefully.<br>
+3. Any form of malpractice or technical misuse will lead to disqualification.<br>
+4. Read each question carefully and manage your time effectively.<br>
+5. Do not communicate with others or use unauthorized materials.<br>
+6. Submit the exam before the allotted time ends and ensure successful submission.<br>
+</p>
+<div class="container">
+<h2 style="color:purple;">Login</h2>
+        
+<!-- Inline CSS Example -->
+        
+<form style="border:1px solid #ccc; padding:10px;">
+            <label>Username:</label>
+            <input type="text" name="username"><br><br>
+            <label>Password:</label>
+            <input type="password" name="password"><br><br>
+            <button type="submit">Login</button>
+            <button type="submit">Reset</button>
+</form>
+<hr>
+<h3 style = "font-size:20px;color:purple;text-align:center;">Sample Questions</h3>
+<form>
+<div class="question">
+<h3>Question 1: HTML stands for</h3>
+      <input type="radio" name="q1"> Hyper Text Markup Language<br>
+      <input type="radio" name="q1"> High Text Machine Language<br>
+      <input type="radio" name="q1"> Hyperlinks Text Management Language<br>
+</div>
+<div class="question">
+<h3>Question 2: CSS is used for?</h3>
+      <input type="radio" name="q2"> Styling web pages<br>
+      <input type="radio" name="q2"> Storing data<br>
+      <input type="radio" name="q2"> Connecting database<br>
+</div>
+<div class="question">
+<h3>Question 3: What is depletion region?</h3>
+
+<ol type="A">
+        <li>No mobile charge carriers</li>
+        <li>Maximum electrons</li>
+        <li>Maximum holes</li>
+        <li>Neutral region</li>
+</ol>
+
+    <br><input type="radio" name="q1" value="a"> A
+    <input type="radio" name="q1" value="b"> B
+    <input type="radio" name="q1" value="c"> C
+    <input type="radio" name="q1" value="d"> D<br><br>
+    
+<h3>Question 4: Silicon barrier potential?</h3>
+
+<select name="q2">
+        <option>A) 0.3V</option>
+        <option>B) 0.7V</option>
+        <option>C) 1.1V</option>
+        <option>D) 2.0V</option>
+</select><br><br>
+    
+<h3>Question 5: Doping creates?</h3>
+    <input type="checkbox" name="q3" value="a"> Equal carriers<br>
+    <input type="checkbox" name="q3" value="b"> Majority/minority<br>
+    <input type="checkbox" name="q3" value="c"> Only electrons<br>
+    <input type="checkbox" name="q3" value="d"> Only holes<br><br>
+<p>Submit area<br><br>
+  KIND ATTENTION<br><br>
+1. Check your answers carefully before you submit your answers.<br>
+2. Submit the exam before the allotted time ends and ensure successful submission.<br></p>
+</div>
+<hr>
+<button type="submit">Submit Exam</button>
+<input type="submit" style = "color:blue;" value="Reset Answers">
+<hr>
+</form>
+</div>
+</body>
+</html>
